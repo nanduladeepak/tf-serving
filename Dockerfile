@@ -7,6 +7,6 @@ COPY ./saved_model_half_plus_two_cpu /models/half_plus_two
 
 
 # EXPOSE 8501
-EXPOSE 8501
+EXPOSE 80:8501
 
 ENV MODEL_NAME=half_plus_two
